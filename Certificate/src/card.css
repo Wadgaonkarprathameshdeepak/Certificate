@@ -1,0 +1,61 @@
+body {
+  margin: 20px;
+  background-image: linear-gradient(to right, rgb(68, 224, 211),rgb(62, 224, 135))
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 5%;
+  padding:6px 12px;
+}
+
+.card {
+  width: 25%;
+  background-color: rgb(35, 230, 230);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 8%;
+  cursor: pointer;
+}
+
+.container {
+  text-align: center;
+  padding: 1px;
+}
+
+
+/* po.card.css */
+
+.card {
+  position: relative;
+  overflow: hidden;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 5px solid transparent; /* initial border */
+  transition: border-color 0.3s ease-in-out; /* smooth transition */
+}
+
+.card:hover::before {
+  border-color: #ff0055; /* border color on hover */
+}
+
+
+
+
+
+
+h1{
+  text-align: center;
+  margin-top: 1px;
+  padding: 12px;
+  background-color: rgb(240, 224, 157);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+ 
+}
