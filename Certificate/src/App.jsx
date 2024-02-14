@@ -21,9 +21,8 @@ const App = () => {
       <h1>My Certificate's</h1>
       <div className="row">
       <div className="card">
-      <a href="https://www.codingbeautydev.com/blog/react-image-l">
+     
           <img src={I1}  style={{ width: "100%" }} />
-          </a>
           <div className="container">
           <button>View</button>
       
